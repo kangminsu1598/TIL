@@ -17,7 +17,7 @@ import random
 numbers = list(range(1,46))
 
 lotto = random.sample(numbers,6)
-lotto.sorted()
+lotto.sort()
 print(f'오늘의 행운의 번호는 {lotto}입니다')
 print("오늘의 행운의 번호는 {}입니다".format(lotto))
 
