@@ -1,0 +1,40 @@
+.text-center {
+    text-align: center;
+}
+
+.text-large {
+    font-size: 200%;
+}
+
+.text-red {
+    color:red;
+}
+
+.text-blue {
+    color:blue;
+}
+
+#dinner {
+    background: blueviolet;
+}
+
+.container {
+    background: blue;
+}
+
+
+div {
+    color: yellow;
+}
+
+div > p {
+    color: red;
+}
+
+p + span {
+    color : green;
+}
+
+* {
+    font-family: 'Nanum Myeongjo', serif;
+}
