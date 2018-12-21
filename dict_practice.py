@@ -62,6 +62,32 @@ hot_city = ""
 cold_city = ""
 count = 0
 
+
+# for 문으로 기준값을 입력한다
+
+for name, temp in citise.items():
+    if (count==0):
+        hot = max(hot)
+        cold = min(cold)
+        hot_city = name
+        cold_city = name
+        
+    else:
+        if (cold > )
+        dd
+    count += 1
+
+            
+
+
+
+
+
+
+
+
+
+
 for name, temp in cities.items():
 
     if (count == 0):
