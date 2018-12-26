@@ -1,6 +1,6 @@
 # Web의 구조와 Web 스크래핑
 
-## Session #1 ...?
+## Session #1 복습
 
 > ublock origin 
 >
