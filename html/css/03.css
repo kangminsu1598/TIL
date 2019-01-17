@@ -1,0 +1,51 @@
+
+/* ,는 대상을 하나씩 다 선택한다. */
+p, h3 {
+    color: darkgrey;
+}
+
+.black_bg, .white {
+    color: white;
+    background-color: black;
+}
+
+div {
+    width: 120px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+/* 인접한 형제 선택자를 따라가서 마지막 div에만 적용한다. */
+.red + .blue + div {
+    background-color: purple;
+}
+h1 + p {
+    color: green;
+}
+
+/* 부모에서 자식을 찾는다. */
+ol > li {
+    color: coral;
+}
+
+ol#chocolate > li {
+    color: chocolate
+}
+
+/* ul아래에 있는 모든 li를 찾는다(자손) */
+ul li {
+    color: lime
+}
+
+/* 특정 항목 선택하기 */
+ul li:nth-of-type(n) {
+    color: black
+}

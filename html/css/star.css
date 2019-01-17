@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #eeeeee;
+    display: flex
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+body, html {
+    height: 100vh;
+    margin: 0;
+}
+
+.sky-container {
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(125deg, #00103a 0%, #3e5177 100%);
+    boader-radius: 50%;
+}

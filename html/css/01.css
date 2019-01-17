@@ -1,0 +1,22 @@
+html {
+    font-size: 20px;
+}
+
+ol, ol li {
+    font-size: 1.2rem;
+    color: rgb(13, 82, 22); /* rgb 스타일 */
+}
+
+ul, ul li {
+    font-size: 1.2em;
+    color: #834444; /* 헥사 스타일 */
+}
+
+.vh {
+    font-size: 5vh;
+    color: rgba(13, 82, 22, 0.1) /* 투명도 추가 */
+}   
+
+.vw {
+    font-size: 5vw;
+}

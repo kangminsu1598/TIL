@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="02.css">
+</head>
+<body>
+    <p>빨간색</p>
+    <h1>TAG 선택자</h1>
+    <h2 class="pink">클래스 선택자</h2>
+    <h3 id="green">id 선택자</h3>
+    <h3 id="green" class="pink">id > 클래스</h3>
+    <h2 class="pink">클래스 > 태그</h2>
+    <hr>
+    <!-- 컴퓨터니까 특정한 곳을 지정해줘야 하고, 따라서 선택자가 필요하다. 선택자를 받기 위해서는 마크업이 필요하다.
+    span 태그와 div 태그는 모두 의미가 있지만 '마크업'을 해야 css를 적용 시킬 수 있기 때문에 사용한다. -->
+    <p><span class="blue">파란색</span>과 <span id="green">초록색</span></p>
+    
+    
+    <!-- css상으로 뒤에 선택된 class가 실행된다. blue 실행-->
+    <p class="bold blue pink">볼드체</p>
+    <p><strong>볼드체</strong></p>
+    <p><b>볼드체</b></p>
+    <!-- 세 경우의 차이점
+    태그를 사용해서 이 지점을 강조한다는 의미를 명시.
+    strong 태그를 남발하면 강조의 의미가 불분명해진다.
+    시멘틱 대상들을 위해서 남발 금지-->
+
+</body>
+</html>

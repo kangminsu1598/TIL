@@ -1,0 +1,8 @@
+/* 없애기 none은 아예 사라짐, hidden은 공백 존재 */
+.none {
+    display: none;
+}
+
+.hidden {
+    visibility: hidden;
+}

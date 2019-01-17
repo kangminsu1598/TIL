@@ -6,9 +6,9 @@
 
 ### 2. 맞으면 T, 틀리면 F를 기업하시오
 
-F
+F,  W3C에서 만듬
 
-F
+F, 반드시 사용할 필요 없다
 
 T
 
@@ -25,7 +25,7 @@ T
 
 * ```html
   <!DOCTYPE html>
-  <html lang="en">
+  <html lang="ko">
   <head>
       <meta charset="UTF-8">
   <body>

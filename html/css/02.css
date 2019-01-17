@@ -1,0 +1,27 @@
+
+/* 우선순위 : 전체 셀렉터 < 태그 < 클래스 < 아이디 */
+* {
+    color: crimson;
+}
+h1 { 
+    color: blue; 
+}
+.pink {
+    color: pink;
+}
+
+#green {
+    color: green;
+}
+
+h2 {
+    color: black;
+}
+
+.blue {
+    color: blue;
+}
+
+.bold {
+    font-weight: bold;
+}
