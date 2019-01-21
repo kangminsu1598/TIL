@@ -10,18 +10,22 @@ for tc in range(10):
 
     # 행의 합
     sum_line = 0
-    for y in arr:
-        if sum_line < sum(y):
-            sum_line = sum(y)
+    for i in range(len(arr)):
+        line_middle = 0
+        for j in range(len(arr[i])):
+            line_middle += arr[i][j]
+        if sum_line < line_middle:
+            sum_line = line_middle
+    # print(sum_line)
 
     # 열의 합
     sum_row = 0
-    for x in range(len(arr[0])):
-        middle = 0
-        for y in range(len(arr)):
-            middle += arr[y][x]
-        if sum_row < middle:
-            sum_row = middle
+    for j in range(len(arr[0])):
+        row_middle = 0
+        for i in range(len(arr)):
+            row_middle += arr[i][j]
+        if sum_row < row_middle:
+            sum_row = row_middle
 
     # 대각선의 합
     sum_1 = 0
