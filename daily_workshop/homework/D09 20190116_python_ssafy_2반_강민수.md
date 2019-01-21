@@ -1,4 +1,4 @@
-### D10 Daily Homework_190116_대전 2반 강민수
+### D09 Daily Homework_190116_대전 2반 강민수
 
 ### 1. HTML은 무엇의 약자인가?
 

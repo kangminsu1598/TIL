@@ -1,4 +1,4 @@
-### D11 Daily Homework_190117_대전 2반 강민수
+### D10 Daily Homework_190117_대전 2반 강민수
 
 ### 1. CSS는 무엇의 약자인가
 
