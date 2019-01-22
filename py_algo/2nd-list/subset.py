@@ -13,7 +13,7 @@
 arr = [-7, -3, -2, 5, 8]
 n = len(arr)
 
-
+# i는 부분집합의 위치, 수, j는 인덱스 번호
 for i in range(1 << n):
     sum = 0
     result = []

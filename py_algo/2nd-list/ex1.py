@@ -28,6 +28,5 @@ for y in range(len(arr)):
             testx = x + dx[i]
             testy = y + dy[i]
             if iswall(testx,testy) == False:
-                sum += calabs(arr[y][x], arr[testy][testx])
-
-print(f'sum = {sum}')
+                sum += calabs(arr[y][x], arr[testy][testx]
+                # arr[y][x]가 행렬 외곽에 있는 원소를 index하면 arr[testy][testx]가 list range 에러
