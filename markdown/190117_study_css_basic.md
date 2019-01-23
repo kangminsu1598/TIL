@@ -14,9 +14,7 @@ context
 
 #### 2. 태그 구분
 
-block : 개행됨
-
-* div
+block : 개행됨, div
 
 inline : 문장 중간에 들어갈 수 있음
 
