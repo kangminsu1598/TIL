@@ -11,7 +11,7 @@
 2. 다음은 부트스트랩의 어떤 component이며 아래와 동일하게 만들어 보시오.
 
 ```html
-<div class="alert alert-info" role="alert">
+<div class="alert alert-primary" role="alert">
   hello SSAFY ?!
 </div>
 ```
@@ -21,7 +21,7 @@
 3. 다음 빈칸을 채우시오.
 
 ```html
-"부트스트랩 그리드 시스템은 레이아웃을 (12)개의 column 으로, (5) 개의 반응형 사이즈 조건을 사용하여 구축한다."
+"부트스트랩 그리드 시스템은 레이아웃을 (12)개의 column 으로, (5)개의 반응형 사이즈 조건을 사용하여 구축한다."
 ```
 
 
