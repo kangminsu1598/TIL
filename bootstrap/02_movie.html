@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>영화추천사이트</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="01_layout.css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script|Song+Myung&amp;subset=korean" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+
+    <style>
+        body {
+            height: 10000px;
+        }
+        
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .section {
+            height:350px;
+            background: url("river.jpeg") no-repeat 0px 10px;
+            font-family: 'Song Myung', serif;
+
+        }
+        h2 {
+            line-height: 350px;
+        }
+        
+        .footer {
+            width: auto;
+            height: 50px;
+            background-color: darkgray;
+            font-family: 'Nanum Pen Script', cursive;
+        }
+        
+        a > i {
+            color: black;
+        }
+
+        .container {
+
+        }
+
+        .subtitle {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        }
+
+        .card {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="#">영화추천시스템</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">친구
+                    평점 보러가기</a>
+                <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Log
+                    in</a>
+
+            </div>
+        </div>
+    </nav>
+    <!-- background image -->
+    <div class="section text-center" id="bgi">
+        <h2>당신에게 어울리는 영화를 추천해드립니다.</h2>
+    </div>
+    <!-- footer -->
+    <div class="footer fixed-bottom d-flex justify-content-between align-items-center px-3   text-start">
+        <a>2019,KMS</a>
+        <a class="align-items-center" href="#bgi">
+            <i class="fas fa-arrow-circle-up fa-2x"></i>
+        </a>
+    </div>
+    <!-- 02_movie -->
+    <div class="container">
+        <div class="subtitle text-center">
+            <h3>영화 목록</h3>
+        </div>
+        <hr width="70px" color="gold">
+        <!-- card -->
+        <div class="row">
+            <div class="card col-sm-6 col-md-4 col-lg-3 col-12 p-0" style="width: 18rem;">
+                <img src="20184105.jpg" class="card-img-top" alt="말모이">
+                <div class="card-body">
+                    <h4 class="card-title">말모이 <span class="badge badge-info">9.04</span> </h4>
+                    <hr width="100%" color='lightgray'>
+                    <p class="card-text">드라마
+                        <br>
+                        개봉일 : 2019.01.09.
+                    </p>
+                    <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=167699" target="_blank"
+                        class="btn btn-success">영화정보 보러가기</a>
+                </div>
+            </div>
+            <div class="card col-sm-6 col-md-4 col-lg-3 col-12 p-0" style="width: 18rem;">
+                <img src="20176251.jpg" class="card-img-top" alt="내안의 그놈">
+                <div class="card-body">
+                    <h4 class="card-title">내안의 그놈 <span class="badge badge-secondary">8.69</span> </h4>
+                    <hr width="100%" color='lightgray'>
+                    <p class="card-text">판타지
+                        <br>
+                        개봉일 : 2019.01.09.
+                    </p>
+                    <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=164172#" target="_blank" class="btn btn-success">영화정보 보러가기</a>
+                </div>
+            </div>
+            <div class="card col-sm-6 col-md-4 col-lg-3 col-12 p-0" style="width: 18rem;">
+                <img src="20182544.jpg" class="card-img-top" alt="글래스">
+                <div class="card-body">
+                    <h4 class="card-title">글래스 <span class="badge badge-secondary">7.69</span> </h4>
+                    <hr width="100%" color='lightgray'>
+                    <p class="card-text">드라마
+                        <br>
+                        개봉일 : 2019.01.17
+                    </p>
+                    <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=163826" target="_blank" class="btn btn-success">영화정보 보러가기</a>
+                </div>
+            </div>
+            <div class="card col-sm-6 col-md-4 col-lg-3 col-12 p-0" style="width: 18rem;">
+                <img src="20189463.jpg" class="card-img-top" alt="랄프">
+                <div class="card-body">
+                    <h4 class="card-title">주먹왕 랄프 2: 인터넷 속으로 <span class="badge badge-secondary">8.76</span> </h4>
+                    <hr width="100%" color='lightgray'>
+                    <p class="card-text">애니매이션
+                        <br>
+                        개봉일 : 2019.01.03
+                    </p>
+                    <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=152632" target="_blank" class="btn btn-success">영화정보 보러가기</a>
+                </div>
+            </div>
+            <div class="card col-sm-6 col-md-4 col-lg-3 col-12 p-0" style="width: 18rem;">
+                <img src="20186324.jpg" class="card-img-top" alt="언더독">
+                <div class="card-body">
+                    <h4 class="card-title">언더독 <span class="badge badge-info">9.49</span> </h4>
+                    <hr width="100%" color='lightgray'>
+                    <p class="card-text">애니매이션
+                        <br>
+                        개봉일 : 2019.01.16
+                    </p>
+                    <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=144318" target="_blank" class="btn btn-success">영화정보 보러가기</a>
+                </div>
+            </div>
+            <div class="card col-sm-6 col-md-4 col-lg-3 col-12 p-0" style="width: 18rem;">
+                <img src="20180290.jpg" class="card-img-top" alt="아쿠아맨">
+                <div class="card-body">
+                    <h4 class="card-title">아쿠아맨 <span class="badge badge-secondary">8.39</span> </h4>
+                    <hr width="100%" color='lightgray'>
+                    <p class="card-text">애니매이션
+                        <br>
+                        개봉일 : 2018.12.19
+                    </p>
+                    <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=151153" target="_blank" class="btn btn-success">영화정보 보러가기</a>
+                </div>
+            </div>
+
+        </div>
+
+
+
+</body>
+
+</html>

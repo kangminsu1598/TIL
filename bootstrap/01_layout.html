@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>영화추천사이트</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="01_layout.css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script|Song+Myung&amp;subset=korean" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <style>
+        body {
+            height: 10000px;
+        }
+        
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .section {
+            height:350px;
+            background: url("river.jpeg") no-repeat 0px 10px;
+            font-family: 'Song Myung', serif;
+
+        }
+        h2 {
+            line-height: 350px;
+        }
+        
+        .footer {
+            width: auto;
+            height: 50px;
+            background-color: darkgray;
+            font-family: 'Nanum Pen Script', cursive;
+        }
+        
+        a > i {
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="#">영화추천시스템</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">친구
+                    평점 보러가기</a>
+                <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Log
+                    in</a>
+
+            </div>
+        </div>
+    </nav>
+    <!-- background image -->
+    <div class="section text-center" id="bgi">
+        <h2>당신에게 어울리는 영화를 추천해드립니다.</h2>
+    </div>
+    <!-- footer -->
+    <div class="footer fixed-bottom d-flex justify-content-between align-items-center px-3   text-start">
+        <a>2019,KMS</a>
+        <a class="align-items-center" href="#bgi">
+            <i class="fas fa-arrow-circle-up fa-2x"></i>
+        </a>   
+    </div>
+
+
+
+
+</body>
+
+</html>
