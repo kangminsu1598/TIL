@@ -2,50 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd143a63-7dd3-41ba-bd68-9a8c392d5d64" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../bootstrap/강민수.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/.idea/libraries/R_User_Library.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/.idea/py_algo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/2nd-list/ex1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/2nd-list/search.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/2nd-list/subset.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/2nd-list/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/2nd-list/달팽잇.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/2nd-sum/2nd_sum.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/2nd-sum/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/babyjin_greedy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/binarysearch/binarysearch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/binarysearch/binarysearch_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/bubble.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/bus/bus.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/bus/sample_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/card/card.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/card/sample_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/coloring/coloring.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/coloring/coloring_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/countingsort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/flatten/flatten.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/flatten/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/hello.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/metalbar/metalbar.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/metalbar/metalbar_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/min max/min_max.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/min max/sample_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/new" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/permutation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/section sum/sample_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/section sum/section_sum.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/special_sort/special_sort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/special_sort/special_sort_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/subset_sum/subset_sum.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/subset_sum/subset_sum_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/view/view.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/py_algo/view/view_input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../markdown/190128_알고리즘 D04_문자열 비교.md" beforeDir="false" afterPath="$PROJECT_DIR$/../markdown/190128_알고리즘 D04_문자열 비교.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/metalbar/metalbar.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -64,11 +22,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/str algorithm/고지식한 패턴 검색.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="238">
+              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -323,12 +281,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="364" y="144" width="340" height="722" id="Project" order="0" visible="true" weight="0.06375132" />
+      <window_info active="true" content_ui="combo" x="364" y="144" width="340" height="722" id="Project" order="0" visible="true" weight="0.06375132" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32963988" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38937092" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38937092" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31106243" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -598,13 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/metalbar/metalbar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/str algorithm/GNS/GNS.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -631,8 +582,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/str algorithm/고지식한 패턴 검색.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="238">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metalbar/metalbar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
