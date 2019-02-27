@@ -11,41 +11,72 @@ for tc in range(T):
     # print(N, M)
     # print(data)
 
+    # 행 방향
+    for i in range(N):
+        for j in range(N-M+1):
+            flag = 1
+            for k in range(M//2):
+                if data[i][j+k] != data[i][j+M-k-1]:
+                    flag = 0
+                    break
+            if flag == 1:
+                for k in range(j, M+j):
+                    print(f'{data[i][k]}', end='')
+                print()
 
-    # 행 방향 탐색
-    for x in range(len(data)):
-        row = []
-        for y in range(len(data[x])):
-            row += data[x][y]
-            count = 0
-        for idx in range(N-M+1):
-            M_list = []
-            if row[idx] == row[idx + M - 1]:
-                M_list = row[idx:idx + M]
-                result = row[idx:idx + M]
-                for i in range(len(M_list)//2):
-                    M_list[i], M_list[-1-i] = M_list[-1-i], M_list[i]
-                if result == M_list:
-                    result = ''.join(M_list)
-                    print(f'#{tc+1} {result}')
+    # 열 방향
+    for i in range(N):
+        for j in range(N-M+1):
+            flag = 1
+            for k in range(M//2):
+                if data[j+k][i] != data[j+M-k-1][i]:
+                    flag = 0
+                    break
+            if flag == 1:
+                for k in range(j, M+j):
+                    print(f'{data[k][i]}', end='')
+                print()
 
 
-    # 열 방향 탐색
-    for y in range(len(data[0])):
-        column = []
-        for x in range(len(data)):
-            column += data[x][y]
-            count = 0
-        for idx in range(N-M+1):
-            M_list = []
-            if column[idx] == column[idx + M - 1]:
-                M_list = column[idx:idx + M]
-                result = column[idx:idx + M]
-                for i in range(len(M_list)//2):
-                    M_list[i], M_list[-1-i] = M_list[-1-i], M_list[i]
-                if result == M_list:
-                    result = ''.join(M_list)
-                    print(f'#{tc+1} {result}')
+
+
+
+
+
+    # 행 방향 탐색(me)
+    # for x in range(len(data)):
+    #     row = []
+    #     for y in range(len(data[x])):
+    #         row += data[x][y]
+    #         count = 0
+    #     for idx in range(N-M+1):
+    #         M_list = []
+    #         if row[idx] == row[idx + M - 1]:
+    #             M_list = row[idx:idx + M]
+    #             result = row[idx:idx + M]
+    #             for i in range(len(M_list)//2):
+    #                 M_list[i], M_list[-1-i] = M_list[-1-i], M_list[i]
+    #             if result == M_list:
+    #                 result = ''.join(M_list)
+    #                 print(f'#{tc+1} {result}')
+
+
+    # # 열 방향 탐색
+    # for y in range(len(data[0])):
+    #     column = []
+    #     for x in range(len(data)):
+    #         column += data[x][y]
+    #         count = 0
+    #     for idx in range(N-M+1):
+    #         M_list = []
+    #         if column[idx] == column[idx + M - 1]:
+    #             M_list = column[idx:idx + M]
+    #             result = column[idx:idx + M]
+    #             for i in range(len(M_list)//2):
+    #                 M_list[i], M_list[-1-i] = M_list[-1-i], M_list[i]
+    #             if result == M_list:
+    #                 result = ''.join(M_list)
+    #                 print(f'#{tc+1} {result}')
 
 
     # 행 방향탐색
